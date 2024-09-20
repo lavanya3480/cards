@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       photos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 800px;
+       }
+
+        img{
+           
+           height:300px;
+        width:200px;
+        border:2px white solid;
+    
+            }
+            #image{
+                display: flex;
+                flex-direction: row;
+                 justify-content: center;
+                 align-items: center;
+                 margin-top: 100px;
+            }
+            img:nth-child(1){
+                margin-right: -30px;
+                transform-style: preserve-3d;
+                transform: perspective(500px) rotateY(30deg);
+            }
+            img:nth-child(2){
+                margin-right: -30px;
+                transform-style: preserve-3d;
+                transform: perspective(500px) rotateY(30deg);
+            }
+            img:nth-child(4){
+                margin-left: -30px;
+                transform-style: preserve-3d;
+                transform: perspective(500px) rotateY(-30deg);
+            }
+            img:nth-child(5){
+                margin-left: -30px;
+                transform-style: preserve-3d;
+                transform: perspective(500px) rotateY(-30deg);
+            }
+            img:nth-child(3){
+                z-index: index 0;
+            }
+
+        </style>
+</head>
+<body>
+    <div id="photos">
+    <div id="image">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.MXXcVA3-a55KwAUXCG5HAAHaE8&pid=Api&P=0&h=180"  height="200px" width="100px" alt="pavani" >
+        <img src="https://tse1.mm.bing.net/th?id=OIP.z6pGwFhPvV4_Yn2ruRtQTwHaEK&pid=Api&P=0&h=180"  height="200px" width="100px" alt="pavani" >
+        <img src="https://tse3.mm.bing.net/th?id=OIP.0txkzNjgO8so2YFoMM-w3gHaEK&pid=Api&P=0&h=180" height="200px" width="100px" alt="pavani" >
+        <img src="https://tse1.mm.bing.net/th?id=OIP.XdN_oWCktcKo2-GWxpPRgwHaFj&pid=Api&P=0&h=180"  height="200px" width="100px" alt="pavani" > 
+        <img src="https://tse2.mm.bing.net/th?id=OIP.iLvbtLjrD2jCgkFYFT5vPwHaHY&pid=Api&P=0&h=180"  height="200px" width="100px" alt="pavani">
+       </div> 
+    </div>
+</body>
+</html>
